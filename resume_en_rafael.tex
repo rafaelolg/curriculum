@@ -1,0 +1,120 @@
+%% start of file `resume_en.tex'.
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[green]{classic}                 
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Rafael}
+\familyname{Gonçalves}
+\title{Software Developer}                    % optional, remove the line if not wanted
+\mobile{(+55-11) 6729-1897}                    % optional, remove the line if not wanted
+\email{rafaellg@vision.ime.usp.br}                      % optional, remove the line if not wanted
+\extrainfo{\href{http://br.linkedin.com/in/rafaelolg}{http://br.linkedin.com/in/rafaelolg}} % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+%\section{Objective}
+%\cvline{}{My objective}
+
+\section{Education}
+
+\cventry{2011 -- Present}{Master of Science}{University of São Paulo}{São Paulo}{Institute of Mathematics and Stastistics}{ 
+Research Area: Computer Vision and Image Processing.
+\newline{Supervisor:}  Prof. Dr. Roberto Hirata.
+}
+
+\cventry{2004--2009}{Bacharel (4-Year Bachelor) in Computer Science}{University of São Paulo}{Institute of Mathematics and Stastistics}{São Paulo}{}
+
+\section{Experience}
+\cventry{2011 -- 2012}{Project Analyst}{\href{http://www.nic.br}{Nic.br}}{São Paulo}{}{
+    Development of technologies to measure broadband internet quality. 
+\newline{} Data analysis of results from tests, dealing with huge datasets.
+\newline{} Creation of automatic network failure detection using machine learning.
+\newline{} Development of a webservice for distributed data storage.
+\newline{} Working with C(embedded), Java and Python(for data analysis) systems.
+\newline{} Project: \href{http://simet.nic.br}{Simet.nic.br}.
+}
+
+\cventry{2010 -- 2011}{Software Developer}{\href{http://www.whitehat.com.br}{WhiteHat}}{São Paulo}{}{Development of Django Python applications. 
+\newline{} Creation of a webscrapper to extract data from online social networks.
+\newline{} Outsourcing for IBOPE.
+}
+
+\cventry{2007 -- 2009}{Intern in Software Development}{\href{http://www.pra.com.br}{PR\&A}}{São Paulo}{}{Development of financial software. 
+\newline{} Technologies used include Java Server Faces, Spring, Maven and JPA.}
+
+
+\cventry{2007 -- 2007}{Intern in Software Development}{\href{http://www.lsitec.org.br}{LSITEC}}{São Paulo}{}{Development of embedded software using C language.
+\newline{} Cellphone development.
+\newline{} Interaction with co-workers overseas.}
+
+
+\cventry{2005 -- 2007}{Sysadmin}{\href{http://www.linux.ime.usp.br}{ Rede Linux-IME-USP}}{São Paulo}{}{Maintenance of a Linux based network with over 100 computers and
+more than 3000 users, using only free software.}
+
+
+\section{Computer skills}
+\cvline{Languages}{C, Java, Python, SQL,  and good notions of R and C++.}
+\cvline{Markup}{HTML, CSS and \LaTeX.}
+\cvline{Version Control Systems}{Subversion, GIT and Mercurial.}
+\cvline{Platforms}{Linux, Unix.}
+\cvline{Tools}{Vim, GCC, Make, Autotools, Maven.}
+\cvline{Frameworks Python}{Django, OpenCV, Numpy, Scipy, Reportlab, Soaplib and Celery.}
+\cvline{Frameworks J2EE}{Spring, Hibernate and EJB.}
+\cvline{C Libraries}{Pthreads, sockets, OpenGL,  OpenCV.}
+
+\section{Languages}
+\cvline{Portuguese}{Native Language.}
+\cvline{English}{Speaking, reading, and writing.}
+
+\section{Research Interests}
+\cvlistitem{Computer vision.}
+\cvlistitem{Human color vision.}
+\cvlistitem{Machine learning.}
+\cvlistitem{Data analysis.}
+
+\section{General Interests}
+\cvline{Open Source Projects Collaborations}{
+\href{bitbucket.org/rafaellg/visiondataset}{bitbucket.org/rafaellg/visiondataset} --- A web platform for scientific collaboration;
+\newline{} \href{visocor.sourceforge.net}{visocor.sourceforge.net} --- A Compiz plugin for colorblindness accessibility.} 
+\cvline{Dramatic Arts}{Actor for 6 years at Cia. Teatral A Vaca Tossiu.}
+
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem[+]{Item 3}            % optional other symbol
+
+%\section{Extra 2}
+%\cvlistdoubleitem[\Neutral]{Item 1}{Item 4}
+%\cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
+%\cvlistdoubleitem[\Neutral]{Item 3}{}
+
+% Publications from a BibTeX file
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+\end{document}
+
