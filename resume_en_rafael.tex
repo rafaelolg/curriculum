@@ -3,7 +3,7 @@
 \documentclass[11pt,a4paper]{moderncv}
 
 % moderncv themes
-\moderncvtheme[green]{classic}                 
+\moderncvtheme[grey]{classic}                 
 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 
 %\moderncvtheme[green]{classic}                % idem
@@ -17,7 +17,7 @@
 
 % personal data
 \firstname{Rafael}
-\familyname{Gonçalves}
+\familyname{Lopes}
 \title{Software Developer}                    % optional, remove the line if not wanted
 \mobile{(+55-11) 6729-1897}                    % optional, remove the line if not wanted
 \email{rafaellg@vision.ime.usp.br}                      % optional, remove the line if not wanted
@@ -36,7 +36,7 @@
 
 \section{Education}
 
-\cventry{2011 -- Present}{Master of Science}{University of São Paulo}{São Paulo}{Institute of Mathematics and Stastistics}{ 
+\cventry{2010 -- 2013}{Master of Science}{University of São Paulo}{São Paulo}{Institute of Mathematics and Stastistics}{ 
 Research Area: Computer Vision and Image Processing.
 \newline{Supervisor:}  Prof. Dr. Roberto Hirata.
 }
@@ -44,6 +44,12 @@ Research Area: Computer Vision and Image Processing.
 \cventry{2004--2009}{Bacharel (4-Year Bachelor) in Computer Science}{University of São Paulo}{Institute of Mathematics and Stastistics}{São Paulo}{}
 
 \section{Experience}
+\cventry{2012 -- Present}{Developer}{\href{http://www.artis.com.br/eximius/index\_eximius.php}{Artis}}{São Paulo}{}{
+Development of neural navigator for computer assisted medical image visualization in surgery;
+\newline{} Computer vision and computer graphics application in python using VTK.
+\newline{} Technical lead of a small team.
+}
+
 \cventry{2011 -- 2012}{Project Analyst}{\href{http://www.nic.br}{Nic.br}}{São Paulo}{}{
     Development of technologies to measure broadband internet quality. 
 \newline{} Data analysis of results from tests, dealing with huge datasets.
@@ -54,8 +60,8 @@ Research Area: Computer Vision and Image Processing.
 }
 
 \cventry{2010 -- 2011}{Software Developer}{\href{http://www.whitehat.com.br}{WhiteHat}}{São Paulo}{}{Development of Django Python applications. 
-\newline{} Creation of a webscrapper to extract data from online social networks.
-\newline{} Outsourcing for IBOPE.
+\newline{} Development of django web systems.
+\newline{} Creation of a webscrapper to extract data from online social networks in python.
 }
 
 \cventry{2007 -- 2009}{Intern in Software Development}{\href{http://www.pra.com.br}{PR\&A}}{São Paulo}{}{Development of financial software. 
@@ -71,15 +77,15 @@ Research Area: Computer Vision and Image Processing.
 more than 3000 users, using only free software.}
 
 
-\section{Computer skills}
+\section{Computer related skills}
 \cvline{Languages}{C, Java, Python, SQL,  and good notions of R and C++.}
 \cvline{Markup}{HTML, CSS and \LaTeX.}
-\cvline{Version Control Systems}{Subversion, GIT and Mercurial.}
-\cvline{Platforms}{Linux, Unix.}
+\cvline{Version Control Systems}{GIT, Mercurial and Subversion}
+\cvline{Platforms}{Linux, Unix and Windows}
 \cvline{Tools}{Vim, GCC, Make, Autotools, Maven.}
-\cvline{Frameworks Python}{Django, OpenCV, Numpy, Scipy, Reportlab, Soaplib and Celery.}
+\cvline{Frameworks Python}{Django, OpenCV, Numpy, Vtk, Wx, Reportlab and Celery.}
 \cvline{Frameworks J2EE}{Spring, Hibernate and EJB.}
-\cvline{C Libraries}{Pthreads, sockets, OpenGL,  OpenCV.}
+\cvline{C Libraries}{Pthreads, Sockets, OpenGL,  OpenCV.}
 
 \section{Languages}
 \cvline{Portuguese}{Native Language.}
@@ -88,28 +94,18 @@ more than 3000 users, using only free software.}
 \section{Research Interests}
 \cvlistitem{Computer vision.}
 \cvlistitem{Human color vision.}
-\cvlistitem{Machine learning.}
-\cvlistitem{Data analysis.}
+\cvlistitem{Machine learning and Data analysis.}
+\cvlistitem{Web Development}
 
 \section{General Interests}
 \cvline{Open Source Projects Collaborations}{
 \href{bitbucket.org/rafaellg/visiondataset}{bitbucket.org/rafaellg/visiondataset} --- A web platform for scientific collaboration;
-\newline{} \href{visocor.sourceforge.net}{visocor.sourceforge.net} --- A Compiz plugin for colorblindness accessibility.} 
-\cvline{Dramatic Arts}{Actor for 6 years at Cia. Teatral A Vaca Tossiu.}
+\newline{} \href{visocor.sourceforge.net}{visocor.sourceforge.net} --- A Compiz plugin for colorblindness accessibility.
+\newline{} \href{github.com/rafaelolg/salienpy}{github.com/rafaelolg/salienpy} --- Salienpy is a set of state of the art saliency models implementations in python.}
 
 
 \closesection{}                   % needed to renewcommands
 \renewcommand{\listitemsymbol}{-} % change the symbol for lists
-
-%\section{Extra 1}
-%\cvlistitem{Item 1}
-%\cvlistitem{Item 2}
-%\cvlistitem[+]{Item 3}            % optional other symbol
-
-%\section{Extra 2}
-%\cvlistdoubleitem[\Neutral]{Item 1}{Item 4}
-%\cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
-%\cvlistdoubleitem[\Neutral]{Item 3}{}
 
 % Publications from a BibTeX file
 \nocite{*}
